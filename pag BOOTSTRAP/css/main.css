@@ -1,0 +1,407 @@
+.navbar-brand img, .navbar-brand {
+    position: relative;
+    padding: 0;
+    width: 50px;
+}
+
+nav {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.nav {
+    float: right;
+}
+
+.icon-bar {
+    background-color:white;
+}
+
+.nav li a{
+    font-family: Heebo, sans-serif;
+    color: white;
+}
+
+.active {
+    box-sizing: border-box;
+    /*background-color: #333333;*/
+    color: darkgray;
+    border-bottom: 3px solid #b49655;
+}
+
+.active:hover {
+    border-bottom: none;
+}
+
+article {
+    position: relative;
+    top:20px;
+    height: 500px;
+}
+
+.nav li a:hover {
+    box-sizing: border-box;
+    border-bottom: 3px solid #b49655;
+    /*background-color: #333333;*/
+    background-color: rgba(0,0,0,0.7);
+}
+
+#section1 {
+    position: relative;
+    height: 700px;
+    background-image: url(fondo-quienes-somos.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+#section1 h1{
+    position: relative;
+    color:white;
+    text-shadow: 2px 3px black;
+    font-size: 90px;
+    text-align: center;
+    font-weight: 500;
+    margin-right: auto;
+    margin-left: auto;
+    top: 40%;
+    font-family: Alex Brush, sans-serif;
+}
+
+#section1 h3 {
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    top: 40%;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 1);
+}
+
+.boton {
+    position: relative;
+    top: 300px; 
+    width: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop-now {
+    font-family: 'Khula', sans-serif;
+    color:#b49655;
+    background-color: rgba(0,0,0,0.6);
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    box-shadow: #b49655;
+    border-color: #b49655;
+    text-shadow: 1px 1px 5px black;
+}
+
+.shop-now:hover {
+    background-color: #b49655;
+    opacity:0.8;
+    color:black;
+    text-shadow: none;
+}
+
+#slider {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    height:87px;
+    background-image: url(slider.jpg);
+    background-size: cover;
+    animation: slider 30s infinite linear;
+    border-bottom: 20px solid black;
+    border-top: 20px solid black;
+}
+
+@keyframes slider {
+    to {
+        background-position: 3540px;
+    }
+}
+
+#section2 {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background-color:white;
+}
+
+#section2 h1{
+    font-family: 'Nixie One', cursive;
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+#barrita {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 3px;
+    background-color: #b49655;
+}
+
+#logos-redes {
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+#logos-redes i{
+    position: relative;
+    font-size: 50px;
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+#logos-redes i:hover {
+    color: #b49655;
+}
+
+.columna ul {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.columna ul li a {
+    color:white;
+    list-style: none;
+    line-height: 28px;
+}
+
+.columna ul li a:hover{
+    color:#b49655;
+    text-decoration: none;
+}
+
+.columna ul li {
+    color:white;
+    list-style: none;
+    line-height: 28px;
+}
+
+.columna span {
+    color:darkgray;
+    margin-left: 10px;
+}
+
+.columna {
+    display: block;
+    position: relative;
+    top: 30px;
+    height: auto;
+    margin-right: 20px;
+}
+
+footer {
+    font-family:'Source Sans Pro', sans-serif;
+    position: relative;
+    min-height: 100%;
+    background-color: #333333;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+#logo-footer {
+    height: 140px;
+    opacity: 0.7;
+}
+
+#data-fiscal {
+    height: 140px;
+    position: relative;
+    margin-left: 20px;
+}
+
+footer hr {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top:55px;
+    border: 1px solid grey;
+}
+
+footer h3 {
+    position: relative;
+    color:grey;
+    font-size: 12px;
+    top:50px;
+}
+
+@media screen and (max-width: 767px)
+{
+    .col-xs-12 {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:438px) and (max-width:767px){
+    .col-xs-5{
+        padding-left: 80px;
+    }
+}
+
+/* FORMULARIO CONTACTO */
+#section3 {
+    position: relative;
+    width: 100%;
+    height: 730px;
+    background-image: url(fondocontacto.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+@media screen and (min-width:992px){
+    .col-lg-8, .col-md-8 {
+        left: 15%;
+    }
+}
+
+#section3 form {
+    font-family: Heebo, sans-serif;
+    position: relative;
+    margin:0;
+    background: rgba(0,0,0,.7);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    top: 40px;
+}
+
+#section3 h2 {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;   
+}
+
+#section3 h4 {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;
+}
+
+textarea {
+    min-height: 150px;
+    max-height: 250px;
+    max-width: 100%;
+}
+
+#boton-enviar {
+    font-weight: 600;
+    padding: 15px;
+    background-color:gainsboro;
+    color: #333333;
+}
+
+#boton-enviar:hover {
+    cursor:pointer;
+}
+
+
+/*LOCALES*/
+#section4 {
+    position: relative;
+    width: 100%;
+    height: 850px;
+    background-image: url(fondo-locales.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.local {
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    font-family: 'Nixie One', cursive;
+    top: 120px;
+    height: 500px;
+}
+
+.local h1 {
+    position: relative;
+    font-family: 'Nixie One', cursive;
+    color: white;
+    text-align: left;
+}
+
+.local h1:hover {
+    color: grey;
+}
+
+.local iframe {
+    position: relative;
+    height: 100%;
+    width: 70%;
+    margin-left: 0;
+}
+
+.centrar-mapa{
+    position: relative;
+    height: 50%;
+    
+}
+
+.local p {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Heebo, sans-serif;
+    line-height: 25px;
+    text-shadow: 2px 1px 0 black;
+}
+
+@media screen and (max-width:768px)
+{
+    .local {
+        top:5px;
+        height: 370px;
+        margin-top: 10px;
+    }
+    
+    .local p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .local iframe {
+        margin-left: 15%;
+    }
+}
+
+
+/*QUIENES SOMOS*/
+#section5 {
+    position: relative;
+    width: 100%;
+    height: 730px;
+    background-image: url(fondo-contacto.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
